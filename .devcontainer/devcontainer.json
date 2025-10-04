@@ -1,10 +1,9 @@
 {
   "name": "ga2-45114d",
-  "image": "mcr.microsoft.com/devcontainers/python:1", 
   "features": {
     "ghcr.io/devcontainers/features/python:1": {}
   },
-  "postCreateCommand": "pip install fastapi",
+  "postCreateCommand": ".devcontainer/setup.sh",
   "extensions": [
     "astral-sh.uv",
     "ms-python.python"
